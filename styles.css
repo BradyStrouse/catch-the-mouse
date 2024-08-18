@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.mouse {
+  background-image: "/large-triangles.svg";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mouse img {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
